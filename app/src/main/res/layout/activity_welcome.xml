@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_welcome">
+
+    <!-- Decorative Top Blob -->
+    <View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_rounded_card"
+        android:backgroundTint="#10FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-150dp"
+        android:layout_marginEnd="-150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_xlarge">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.4" />
+
+        <!-- Logo with shadow -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/background_white">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_tooth"
+                android:padding="24dp"
+                android:contentDescription="CekGigi Logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textSize="36sp"
+            android:letterSpacing="0.1"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:layout_marginTop="@dimen/margin_large" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/txtSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_subtitle"
+            android:textSize="18sp"
+            android:textColor="@color/text_white"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_small" />
+
+        <!-- Illustration placeholder -->
+        <ImageView
+            android:id="@+id/imgMascot"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mascot_height"
+            android:src="@drawable/ic_tooth"
+            app:tint="#20FFFFFF"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:contentDescription="Mascot CekGigi" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Action Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMulaiSkrining"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/btn_mulai_skrining"
+            app:backgroundTint="@color/background_white"
+            android:textColor="@color/primary_teal"
+            app:cornerRadius="@dimen/corner_radius_large"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:elevation="8dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

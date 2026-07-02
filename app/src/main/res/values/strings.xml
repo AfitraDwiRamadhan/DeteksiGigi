@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CekGigi</string>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome_title">CEKGIGI</string>
+    <string name="welcome_subtitle">Asisten Kesehatan Gigi Pribadi Anda</string>
+    <string name="btn_mulai_skrining">Mulai Skrining Sekarang</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="halo_user">Halo, User!</string>
+    <string name="apa_kabar_gigi">Apa kabar gigimu hari ini?</string>
+    <string name="skrining_sekarang">Skrining Sekarang</string>
+    <string name="skrining_desc">Gunakan AI untuk cek kesehatan gigi</string>
+    <string name="riwayat_terakhir">Riwayat Skrining Terakhir</string>
+    <string name="ambil_foto_baru">Ambil Foto Baru</string>
+    <string name="tips_hari_ini">Tips Hari Ini</string>
+    <string name="tips_sikat_gigi">Sikat Gigi Setelah Makan</string>
+    <string name="belum_ada_riwayat">Belum ada riwayat skrining.\nMulai skrining pertamamu!</string>
+    <string name="semua_riwayat">Semua Riwayat</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_tips">Tips</string>
+
+    <!-- Camera -->
+    <string name="posisikan_gigi">Posisikan Gigi di Sini</string>
+    <string name="tip_pencahayaan">• Pencahayaan Cukup</string>
+    <string name="tip_gigi_terlihat">• Gigi Terlihat Jelas</string>
+    <string name="tip_tanpa_filter">• Tanpa Filter</string>
+    <string name="flash">Flash</string>
+
+    <!-- Result -->
+    <string name="klasifikasi">KLASIFIKASI:</string>
+    <string name="probabilitas_akurasi">Probabilitas Akurasi: %1$.1f%%</string>
+    <string name="keterangan">Keterangan:</string>
+    <string name="simpan_riwayat">Simpan Riwayat</string>
+    <string name="konsultasi_dokter">Konsultasi Dokter Gigi</string>
+    <string name="disclaimer">*Ini hanya skrining gigi, silakan konsultasi ke dokter gigi.</string>
+    <string name="result_title">Hasil Skrining</string>
+    
+    <!-- Labels Klasifikasi -->
+    <string name="gigi_sehat">Gigi Bersih &amp; Sehat</string>
+    <string name="gigi_tidak_sehat">Gigi Kurang Sehat</string>
+    
+    <!-- Common -->
+    <string name="berhasil_disimpan">Riwayat berhasil disimpan!</string>
+    <string name="gagal_menyimpan">Gagal menyimpan riwayat.</string>
+    <string name="izin_kamera_diperlukan">Izin kamera diperlukan untuk skrining gigi.</string>
+    <string name="gallery">Galeri</string>
+</resources>

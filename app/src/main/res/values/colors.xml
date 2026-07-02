@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary_teal">#2BA89D</color>
+    <color name="primary_dark">#1A8A7F</color>
+    <color name="primary_darker">#0E3746</color>
+    <color name="secondary_blue">#3498DB</color>
+
+    <!-- Backgrounds -->
+    <color name="background_light">#F4FBF9</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="surface_card">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0E3746</color>
+    <color name="text_secondary">#5C7B83</color>
+    <color name="text_muted">#8EA6AC</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Semantic Colors -->
+    <color name="success_green">#27AE60</color>
+    <color name="success_green_light">#E9F7EF</color>
+    <color name="warning_amber">#F39C12</color>
+    <color name="warning_amber_light">#FEF5E7</color>
+    <color name="danger_red">#E74C3C</color>
+    <color name="danger_red_light">#FDEDEC</color>
+
+    <!-- Utilities -->
+    <color name="divider">#E1ECF0</color>
+    <color name="camera_overlay">#AA000000</color>
+    <color name="welcome_gradient_start">#0E3746</color>
+    <color name="welcome_gradient_end">#1A8A7F</color>
+    <color name="button_teal">#2BA89D</color>
+    <color name="card_shadow">#0A000000</color>
+
+    <!-- New Colors for UI -->
+    <color name="shimmer_base">#E1ECF0</color>
+    <color name="shimmer_highlight">#F4FBF9</color>
+</resources>
